@@ -1,5 +1,40 @@
-body{
-    background-image: url("Background_img/Sample.png");
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 100px;
+}
+
+div.grid1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    background-color: lightblue;
+}
+
+div.grid2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    background-color: lightcoral;
+}
+
+div.grid3{
+    background-color: lightgoldenrodyellow;
+}
+
+div.grid4{
+    background-color: lightseagreen;
+}
+
+div.grid5{
+    background-color: lightsteelblue;
+}
+
+div.grid6{
+    background-color: lightslategrey
 }
 
 h2.header{
