@@ -1,3 +1,12 @@
+body{
+    background-image: url("Background_img/Sample.png");
+}
+
+h2.header{
+    color: blue;
+    text-align: center;
+}
+
 p{
     color:red;
     text-align: center;
